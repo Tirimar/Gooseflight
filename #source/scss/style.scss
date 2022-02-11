@@ -1,0 +1,201 @@
+@import "nullstyle.scss";
+a { color: inherit; } 
+body{
+   font-family: Montserrat;
+   font-style: normal;
+   font-weight: 600;
+   font-size: 16px;
+   line-height: 20px;
+   background-color: #E5E5E5;
+   display: flex;
+   justify-content: center;
+   min-width: 1360px;
+}
+.content{
+   width: 1360px;
+   padding: 0 40px 0 40px;
+}
+header{
+   display: flex;
+   align-items: center;
+   height: 92px;
+   font-size: 16px;
+}
+footer{
+   height: 361px;
+   display: flex;
+}
+.home{
+   margin-left: 310px;
+   display: inline-block;
+   color: #0C68BE;
+   padding: 0 24px 0 24px;
+}
+.promo{
+   font-weight: 400;
+   padding: 0 24px 0 24px;
+   display: inline-block;
+   color: #333333;
+}
+.booking{
+   font-weight: 400;
+   margin-right: 294px;
+   padding: 0 24px 0 24px;
+   display: inline-block;
+   color: #333333;
+}
+.nav{
+   justify-content: center;
+   align-items: center;
+   display: inline-block;
+   align-items: center;
+   font-family: Montserrat;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 16px;
+   line-height: 20px;
+}
+.btn{
+   align-items: center;
+   display: inline-block;
+   text-align: center;
+   position: relative;
+   margin: 0 auto;
+   right: 0px;
+   padding: 12px 24px 12px 24px;
+   background-color: #113B75;
+   border-radius: 8px;
+   color: white;
+
+   &:hover {
+      background-color: #214475;
+      transition: 0.3s all ease;
+   }
+}
+.list{
+   background-image: url('../img/Frame 161.svg');
+   background-color: #E5E5E5;
+   height: 660px;
+}
+.footerlogo{
+   margin-left: 80px;
+   width: 185px;
+   height: 24px;
+}
+.footerunder{
+   color: #7C8DB0;
+   font-family: Nunito Sans;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 22px;
+   margin-left: 138px;
+   margin-right: 20px;
+   padding: 8px 0 8px 0;
+   width: 200px;
+}
+.footerhead{
+   font-weight: 700;
+   color: #6E7491;
+   margin-left: 138px;
+   margin-right: 20px;
+   padding: 8px 0 8px 0;
+   width: 200px;
+}
+.footerimg{
+   padding: 24px 0 0 0;
+   margin-left: 142px;
+}
+.footerimg:last-child{
+   padding: 12px 0 0 0;
+   margin-left: 142px;
+}
+.way {
+   background-color: #FFFFFF;
+   position: relative;
+   height: 238px;
+   top: 353px;
+   border: 1px solid #7C8DB0;
+   border-radius: 16px;
+   color: #7C8DB0;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+.checkbox{
+   border-radius: 20px;
+}
+.checkbox:disabled+label::before {
+   background-color: none;
+   opacity: 0.25;
+ }
+ .checkbox:checked+label::before {
+   border-color: #113B75;
+   background-color: #113B75;
+   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23fff'/%3e%3c/svg%3e");
+ }
+ .checkbox:not(:disabled):active+label::before {
+   background-color: #113B75;
+   border-color: #113B75;
+   opacity: 1;
+ }
+ .waycheck{
+   display: inline-block;
+   padding: 28px 28px 0;
+ }
+ .checklabel{
+   padding: 28px 0 0;
+   color: #333333;
+ }
+  .checkboxes{
+   margin: 0 auto;
+   height: 84px;
+   display: flex;
+   width: 1360px;
+   justify-content: center;
+ }
+.flightchoose{
+   display: flex;
+   height: 154px;
+   width: 100%;
+   padding-top: 28px;
+   padding-bottom: 24px;
+   align-items: center;
+   border-top: 1px solid #7C8DB0;
+}
+.trip{
+   display: inline-block;
+   margin-right: 34px;
+   width: 174px;
+   &:first-child{
+   margin-left: 24px;
+   }
+}
+.icons{
+   display: inline-block;
+}
+.trip2{
+   width: 234px;
+   display: inline-block;
+}
+.imgs{
+   margin-right: 8px;
+}
+.input{
+   margin-top: 8px;
+   color: #7C8DB0;
+   width: 100%;
+   height: 34px;
+   background-color: #FFFFFF;
+   font-family: Montserrat;
+   font-style: normal;
+   font-weight: 300;
+   font-size: 15px;
+   line-height: 18px;
+   &:hover{
+      border-bottom: 2px solid #0C68BE;
+   }
+   &:focus{
+      border-bottom: 2px solid #0C68BE;
+   }
+}
